@@ -6,8 +6,8 @@ public class StripeClient extends GatewayRules {
     }
 
     public String[] customerGet() {
-        String[] resp = { "Stripe client customer get called." };
-        return resp;
+        Customer customer = new Customer();
+        return customer.get();
     }
 
     public String[] customerCreate() {
