@@ -1,5 +1,4 @@
 package Singleton;
-
 public class Database {
     private static Database connection;
 
